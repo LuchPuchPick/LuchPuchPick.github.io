@@ -318,6 +318,7 @@ padding-top: 25px;
 .footer_right{
     margin-left: 400px;
     display: flex;
+    gap: 60px;
 }
 .footer_left{
     font-size: 30px;
@@ -325,7 +326,7 @@ padding-top: 25px;
 .right-first{
     display: flex;
     flex-direction: column;
-    margin-right: 200px;
+    margin-right: 0px;
     align-items: center;
     justify-content: center;
 }
@@ -600,8 +601,7 @@ width: 100%;
         align-items: center;
         justify-content: center;
         margin-top: 3rem;
-        margin-left: 0rem;
-        width: 100%;
+        text-align: center;
     }
     .right-second{
         display: flex;
