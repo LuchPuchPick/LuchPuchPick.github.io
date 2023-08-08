@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linesgate</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  </head>
+  <body>
+    <div class="mask">
+      <div class="hourglassBackground">
+        <div class="hourglassContainer">
+          <div class="hourglassCurves"></div>
+          <div class="hourglassCapTop"></div>
+          <div class="hourglassGlassTop"></div>
+          <div class="hourglassSand"></div>
+          <div class="hourglassSandStream"></div>
+          <div class="hourglassCapBottom"></div>
+          <div class="hourglassGlass"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav-container">
+    <button class="burger">
+    <input hidden="" class="check-icon" id="check-icon" name="check-icon" type="checkbox">
+            <label class="icon-menu" for="check-icon">
+                <div class="bar bar--1"></div>
+                <div class="bar bar--2"></div>
+                <div class="bar bar--3"></div>
+            </label>
+            </button>
+            <div class="modal-window">
+              <div class="burger-navigation">
+                <a href="#about_film" class="head-btn">О фильме</a>
+                <a href="#trailer" class="head-btn">Трейлер</a>
+                <a href="#actors" class="head-btn">Актеры</a>
+                <a href="#films" class="head-btn">Другие проекты</a>
+              </div>
+            </div>
+            </div>
+    <header class="header">
+      <div class="navigation">
+        <a href="#about_film" class="head-btn">О фильме</a>
+        <a href="#trailer" class="head-btn">Трейлер</a>
+        <a href="#actors" class="head-btn">Актеры</a>
+        <a href="#films" class="head-btn">Другие проекты</a>
+      </div>
+    </header>
+    <div class="logo video">
+        <img src="./images/john wick chapter 4.png" class="logo" />
+    </div>
+    <div class="video">
+      <video class="johnVideo" autoplay loop muted playsinline>
+        <source src="./videoplayback.webm"frameborder="0" allow="accelerometer; autoplay" onerror="fallback(parentNode)"></source>
+      </video>
+    </div>
+    <section id="about_film">
+      <div class="container">
+        <img src="./images/poster num 2.jpg" alt="" class="poster" />
+        <div class="information">
+          <p id="opisanie">
+            Джон Уик находит способ одержать победу<br />
+            над Правлением Кланов. Однако, прежде чем<br />
+            он сможет заслужить свою свободу, ему предстоит <br>
+             сразиться с новым врагом и его могущественными союзниками.
+          </p> 
+            <h1>Производство: 2023, Linesgate</h1>
+            <h1>Страна: Сша, Германия</h1>
+            <h1>Жанр: боевик, триллер, криминал, неонуар</h1>
+            <h1>Слоган: "Baba Yaga"</h1>
+            <h1>Бюджет: $90 000 000</h1>
+            <h1>Сборы в мире: $428 188 427</h1>
+            <h1>18+/MPAA:R</h1>
+            <h1>169 min./02:49</h1>
+            <a href="https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D1%85%D0%B5%D0%BB%D1%81%D0%BA%D0%B8,_%D0%A7%D0%B0%D0%B4"  >Режиссер: Чад Стахелски</a>
+        </div>
+      </div>
+    </section>
+    <section id="trailer">
+      <h1 id="ololo">Финальный трейлер</h1>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/yjRHZEUamCc"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+       class="trailer-video"></iframe>
+    </section>
+    <section id="actors">
+      <h1 class="actor-title">Актерский состав и съемочная группа</h1>
+<div class="act-cards">
+  <div class="first">
+  <div class="act-card">
+    <img src="./images/чад.jpg" alt="" class="act-foto">
+    <div class="text">
+    <h2>Чад Стахелски</h2>
+    <p>Режиссер</p>
+    </div>
+  </div>
+  <div class="act-card">
+    <img src="./images/Киану.jpg" alt="" class="act-foto">
+    <div class="text">
+    <h2>Киану Ривз</h2>
+    <p>Джон Уик</p>
+    </div>
+  </div>
+  </div>
+  <div class="second">
+  <div class="act-card">
+    <img src="./images/Йенн.jpg" alt="" class="act-foto">
+    <div class="text">
+    <h2>Донни Йен</h2>
+    <p>Каин</p>
+    </div>
+  </div>
+  <div class="act-card">
+    <img src="./images/billy.jpg" alt="" class="act-foto">
+    <div class="text">
+    <h2>Билл Скарсгард</h2>
+    <p>Маркиз</p>
+    </div>
+  </div>
+  </div>
+</div>
+<button class="button">
+  Развернуть
+</button>
+    </section>
+    <section id="films">
+      <h1>Сиквелы и приквелы</h1>
+      <div class="sikvel_prikvel">
+        <div class="film">
+          <img src="./images/джон уик 1.webp" alt="" class="s_image">
+          <h2 class="s_h">Джон Уик</h2>
+        </div>
+        <div class="film">
+          <img src="./images/джон 2.webp" alt="" class="s_image">
+          <h2 class="s_h">Джон Уик 2</h2>
+        </div>
+        <div class="film">
+          <img src="./images/джон уик 3.webp" alt="" class="s_image">
+          <h2 class="s_h">Джон Уик 3</h2>
+        </div>
+        <div class="film">
+          <img src="./images/джон уик 5.jpg" alt="" class="s_image">
+          <h2 class="s_h">Джон Уик 5</h2>
+        </div>
+      </div>
+      <h1 class="off_h">Спин-оффы</h1>
+      <div class="spinoff">
+        <div class="series">
+<img src="./images/The_Continental.jpg" alt="lol" class="s_image">
+<h2 class="s_h">Континенталь</h2>
+        </div>
+        <div class="series">
+          <img src="./images/бадерина.jpg" alt="lol" class="s_image">
+          <h2 class="s_h">Балерина</h2>
+</div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="left-right">
+        <div class="footer_left">
+          <h1>John Wick</h1>
+        </div>
+        <div class="footer_right">
+          <div class="right-first">
+            <h2>Фильмы</h2>
+            <a href="">John Wick 1</a>
+            <a href="">John Wick 2</a>
+            <a href="">John Wick 3</a>
+          </div>
+          <div class="right-second">
+            <h2>Соц. сети</h2>
+            <div class="social_icons">
+            <a href=""><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href=""><ion-icon name="logo-youtube"></ion-icon></a>
+            <a href=""><ion-icon name="logo-tiktok"></ion-icon></a>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <h2 id="THE_END">ⓒ 2023 Lions Gate Entertainment Inc.Все права защищены.</h2>
+      </div>
+    </footer>
+    <script src="./jquery-3.6.0.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="./script.js"></script>
+
+  </body>
+</html>
