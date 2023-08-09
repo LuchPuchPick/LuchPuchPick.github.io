@@ -747,8 +747,14 @@ transform: scale(1.1);
     margin-top: 15px;
     font-size: 18px;
 }
+.cards-2{
+  display: flex;
+}
+.hidden{
+  display: none;
+}
 
-.button {
+.act-button {
     cursor: pointer;
     position: relative;
     padding: 15px 24px;
@@ -763,7 +769,7 @@ transform: scale(1.1);
     margin-top: 20px;
   }
   
-  .button::before {
+  .act-button::before {
     content: '';
     position: absolute;
     inset: 0;
@@ -777,18 +783,18 @@ transform: scale(1.1);
     transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
   }
   
-  .button:hover::before {
+  .act-button:hover::before {
     scale: 3;
   }
   
-  .button:hover {
+  .act-button:hover {
     color: #ffffff;
     scale: 1;
     box-shadow: 0 0px 15px rgb(255, 85, 0);
     filter: drop-shadow(0px 0px 5px #fff);
   }
   
-  .button:active {
+  .act-button:active {
     scale: 1;
   }
 .s_image{
@@ -968,7 +974,7 @@ margin-top: 5px;
     width: 100vw;
     position: sticky;
     top: 0;
-    z-index: 80;
+    z-index: 90;
     box-shadow: 0px 0px 20px 0px #dc1e09;
     margin-top: 1rem;
   }
@@ -998,10 +1004,13 @@ width: 100%;
 .logo.video {
     position: absolute;
     z-index: 1; 
-    top: 40%; 
+    top: 48%; 
     left: 25%;
     transform: translateX(0%);
     filter: drop-shadow(0px 0px 6px #ff3700);
+  }
+  .check-icon:checked~.logo img{
+ display: none;
   }
   .logo img{
     width: 180px;
@@ -1083,6 +1092,13 @@ width: 100%;
         width:70px;
         height: 100px;
         border-radius: 10px;
+    }
+    .expandable{
+      display: flex;
+      flex-direction: column;
+    }
+    .hidden{
+      display: none;
     }
     .actor-title{
         font-size: 16px;
